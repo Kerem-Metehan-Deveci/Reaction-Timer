@@ -1,5 +1,5 @@
 <template>
-<h1>Reaction Timer</h1>
+<h1>Reaction Timer - Kerem Metehan Deveci</h1>
 <button @click="start" :disabled="isPlaying">Play</button>
 <VBlock v-if="isPlaying" :delay="delay" @end="endGame" />
 <VResults v-if="showResults" :score="score" />
@@ -54,7 +54,7 @@ button {
   letter-spacing: 1px;
   cursor: pointer;
   margin: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 button[disabled] {
