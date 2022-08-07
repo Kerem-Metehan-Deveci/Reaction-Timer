@@ -54,7 +54,6 @@ button {
   letter-spacing: 1px;
   cursor: pointer;
   margin: 10px;
-  border-radius: 10px;
 }
 
 button[disabled] {
