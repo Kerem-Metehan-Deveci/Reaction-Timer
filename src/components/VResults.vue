@@ -15,11 +15,11 @@
         },
         mounted() {
             if (this.score < 250) {
-                this.rank = 'Mükemmmel zamanlama '
+                this.rank = 'Perfect Timing'
             }   else if (this.score < 400) {
-                this.rank = 'Fena Değil'
+                this.rank = 'Not Bad'
             }   else {
-                this.rank = 'Baya kötüsün '
+                this.rank = 'Bad Timing'
             }
         }
     }
